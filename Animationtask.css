@@ -1,0 +1,70 @@
+.card1{
+    height: 8rem;
+    width: 8rem;
+    background-color: red;
+    transition: transform 3s;
+    margin-bottom: 1rem;
+}
+.card1:hover{
+    transform: rotate(360deg);
+}
+.card2{
+    height: 5rem;
+    width: 5rem;
+    animation-name: card2Test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+}
+@keyframes card2Test{
+    from{margin-top: 15px; background-color: rgb(233, 21, 62);}
+    to{margin-left: 15px; background-color: rgb(3, 11, 176);}
+}
+.card3{
+    height: 6rem;
+    width: 6rem;
+    animation-name: card3Test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+
+}
+@keyframes card3Test{
+    from{margin-top: 20px; background-color: rgb(70, 2, 2);}
+    to{margin-left: 20px; background-color: rgb(232, 208, 232);}
+    0%{margin-left: 0rem; background-color: olive;}
+    25%{margin-left: 2rem; background-color: rgb(39, 57, 2);}
+    50%{margin-top: 3rem;margin-left: 3rem;background-color: rgb(57, 1, 57);}
+    75%{margin-top: 3rem;margin-left: 0rem;background-color: rgb(118, 23, 6);}
+    100%{margin-top: 4rem;margin-left: 0rem;background-color: rgb(59, 2, 59);}
+}
+.card4{
+    height: 9rem;
+    width: 9rem;
+    animation-name: card4Test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+
+}
+@keyframes card4Test{
+    0%{background-color: bisque;}
+    25%{background-color: orange;}
+    50%{ background-color: chartreuse;}
+    75%{ background-color: blueviolet;}
+    100%{ background-color: cornflowerblue;}
+}
+.card5{
+    height: 5rem;
+    width: 5rem;
+    animation-name: card5Test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes card5Test{
+    0%{margin-left: 0rem; background-color: pink;}
+    25%{margin-left: 2rem; background-color: brown;}
+    50%{margin-top: 2rem;  background-color: purple;}
+    75%{margin-right: 2rem;  background-color: acqua;}
+    100%{margin-left: 0rem; background-color: cornflowerblue;}
+}
